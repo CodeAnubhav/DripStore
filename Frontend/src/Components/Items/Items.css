@@ -1,0 +1,13 @@
+/* Add this CSS in your stylesheets */
+
+.card {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  

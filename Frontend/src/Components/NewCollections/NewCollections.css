@@ -1,0 +1,9 @@
+/* styles.css */
+
+@media (min-width: 1024px) {
+    .latest-section {
+      padding-left: 150px;
+      padding-right: 150px;
+    }
+  }
+
