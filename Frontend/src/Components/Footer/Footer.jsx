@@ -22,7 +22,7 @@ const Footer = () => {
               <Link to="/women">Women</Link>
             </a>
             <a class="hidden md:block cursor-pointer text-gray-600 hover:text-white uppercase">
-              <Link to="/accessories">Accessories</Link>
+              <Link to="/kids">Kids</Link>
             </a>
             <div class="flex flex-row space-x-8 items-center justify-between">
               <a href="www.linkedin.com/in/codeanubhav">

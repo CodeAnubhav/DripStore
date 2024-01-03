@@ -1,16 +1,19 @@
 import React from "react";
 import "./Items.css";
+import { Link } from "react-router-dom";
 
 const Items = (props) => {
   return (
     <div className="card">
       <div className="bg-white shadow-md rounded-lg max-w-sm dark:bg-black dark:border-gray-700 transition-transform transform hover:shadow-lg">
         <a href="#">
-          <img
+         <Link to={`/product/${props.id}`}>
+         <img
             className="rounded-lg p-8"
             src={props.image}
             alt="product image"
           />
+          </Link>
         </a>
         <div className="px-5 pb-5">
           <a href="#">

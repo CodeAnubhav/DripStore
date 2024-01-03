@@ -8,6 +8,7 @@ const NewCollections = () => {
     <>
       <div className="latest-section">
         <h1 className="text-5xl font-bold m-4 text-center">LATEST COLLECTION</h1>
+        <hr className="border-t-2 border-gray-300 mb-8" />
      
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-8">
           {new_collections.map((item, i) => (

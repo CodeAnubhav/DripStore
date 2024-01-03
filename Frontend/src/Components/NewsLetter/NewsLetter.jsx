@@ -8,10 +8,10 @@ const NewsLetter = () => {
           src="https://assets.bonkerscorner.com/uploads/2023/11/20122101/Bonkerscorner_squad-top_04.jpg"
           alt="newsletter"
           role="img"
-          class="h-auto w-full xl:w-1/2 lg:w-2/3 md:w-3/4 sm:w-full"
+          class="h-auto w-full xl:w-1/2 lg:w-2/3 md:w-3/4 sm:w-full rounded-full"
         />
       </div>
-      <div class="w-full xl:w-1/2 xl:pl-40 xl:py-28">
+      <div class="w-full xl:w-1/2 xl:py-28">
         <h1 class="text-2xl md:text-4xl xl:text-5xl font-bold leading-10 text-gray-800 mb-4 text-center xl:text-left md:mt-0 mt-4">
           Subscribe
         </h1>
